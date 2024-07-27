@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    
+}
+.navbar {
+    margin-bottom: 50px;
+}
+.carousel-inner img {
+    width: 50%;
+}
+.presentation {
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.icon-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px; 
+    height: 50px; 
+    background-color: #00BFFF; 
+}
+
+.card .card-body{
+    background-color: #00bfff;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    background-color: #00bfff;
+}
+

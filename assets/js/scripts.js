@@ -1,13 +1,9 @@
-$(document).ready(function () {
-    // Inicializa los tooltips de Bootstrap
-    $('[data-toggle="tooltip"]').tooltip();
-
-    // Opciones del carrusel
-    $('.carousel').carousel({
-        interval: 1
+document.querySelectorAll('a.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
     });
 });
-
-
-
 
